@@ -40,6 +40,8 @@ for (let i = 0; i<1; i++)
 {
     let numberOfFilms = +prompt("Qancha film ko'rgansiz?");
 
+// numberOfFilms 0 ga teng bo'lsa "Xatolik yuz berdi!" bildirishnomasini consolga chiqaradi
+
     if (numberOfFilms != 0){
 
         let nameOfFilms = prompt("Oxirgi ko'rgan filmlaringizdan biri?"),
