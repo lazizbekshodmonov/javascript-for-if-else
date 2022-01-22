@@ -36,8 +36,7 @@ let numberOfFilms,
     privat: false
 };
 
-for (let i = 0; i<1; i++)
-{
+for (let i = 0; i<1; i++) {
     let numberOfFilms = +prompt("Qancha film ko'rgansiz?");
 
 // numberOfFilms 0 ga teng bo'lsa "Xatolik yuz berdi!" bildirishnomasini consolga chiqaradi
